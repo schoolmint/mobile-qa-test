@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            tools:context="android.mobile.com.qa.FormFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Fisrt Name"/>
+
+        <EditText
+            android:id="@id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="First Name"
+            android:singleLine="true"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Last Name"/>
+
+        <EditText
+            android:id="@id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Last Name"
+            android:inputType="textCapWords"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Email"/>
+
+        <EditText
+            android:id="@id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Email"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Phone Number"/>
+
+        <EditText
+            android:id="@id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Phone Number"
+            android:singleLine="true"/>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Password"/>
+
+        <EditText
+            android:id="@id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="Passwrod"
+            android:inputType="textPassword"
+            android:nextFocusDown="@+id/confirm_password"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Confirm Password"/>
+
+        <EditText
+            android:id="@id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@id/next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_margin="12dp"
+            android:background="@color/colorPrimary"
+            android:padding="12dp"
+            android:text="Next"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
